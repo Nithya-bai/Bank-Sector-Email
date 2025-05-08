@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Nizcare Corporate Wellness</title>
+
+   <link rel="stylesheet" href="nizcare.css">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      background: #ffffff;
+      color: #333333;
+    }
+    
+    .container {
+      width: 90%;
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    
+    header {
+      background: white;
+      text-align: center;
+      margin-bottom: 5px;
+      background-color:#1ea69a ;
+      border-radius: 8px;
+      height: auto;
+      margin-top: 5px;
+    }
+    
+    h1 {
+      font-size: 28px;
+      
+      color: #ffffff;
+    }
+    
+    .center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+
+ 
+}
+
+.center-wrapper img {
+  max-width: 50%;
+  height: auto;
+}
+
+    .main-image {
+      width: 100%;
+      height: auto;
+      margin-top: 5px;
+    }
+    
+    h3 {
+      color: #1ea69a;
+      font-size: 22px;
+      margin-top: 5px;
+    }
+    p {
+      text-indent: 2em; 
+      font-size: 14px;
+      line-height: 1.5;
+      max-width: 600px;
+      margin: 40px auto;
+      margin-top: 5px;
+    }
+    .section-title {
+      font-size: 22px;
+      color: #1ea69a;
+      margin-top: 5px;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #1ea69a;
+      padding-bottom: 5px;
+      display: flex;
+      justify-content: center;
+    }
+   
+    .package-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+    .package-row {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: space-between;
+      margin-bottom: 20px;
+    }
+    .package-row-3 .package {
+      width: calc(33.33% - 15px);
+    }
+    .package-row-2 .package {
+      width: calc(50% - 10px);
+    }
+    .package {
+      background-color: #f0fffd;
+      border-radius: 8px;
+      padding: B15px;
+      box-shadow: 0 3px 10px rgba(30, 166, 154, 0.1);
+    }
+    .package-title {
+      font-size: 18px;
+      color: #1ea69a;
+      margin-top: 0;
+    }
+    .package ul {
+      padding-left: 20px;
+      margin-bottom: 0;
+    }
+    .package li {
+      margin-bottom: 8px;
+      font-size: 14px;
+    }
+        
+    @media only screen and (max-width: 600px) {
+    .package-row-3 .package, 
+    .package-row-2 .package,
+    .service-box {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+    .package-row, .service-row {
+        margin-bottom: 0;
+    }
+    }
+    .cta {
+    text-align: center;
+    margin: 30px 0;
+    }
+    
+    blockquote {
+      font-style: italic;
+      background: #f9f9f9;
+      padding: 10px;
+      border-left: 5px solid #1da69a;
+      margin: 10px 0;
+      text-align: center;
+      
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      
+    }
+    
+    .cta-button {
+      background: #1da69a;
+      color: #ffffff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 20px;
+    }
+    .footer {
+      background-color: #1da69a;
+      color: white;
+      width: 565px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      
+    }
+    .social-icons {
+      margin: 15px 0;
+    }
+    .social-icon {
+      width: 32px;
+      height: 32px;
+      margin: 0 5px;
+    }
+    
+    footer {
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .cta-button {
+      background: #ffffff;
+      color: #1da69a;
+      padding: 8px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+
+    .cta-button1 {
+      background: #1da69a;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: 600;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      
+    }
+    
+    .email-signature {
+      padding: 15px;
+      background-color: #ffffff;
+      border: 1px solid #e0e0e0;
+      width: 95%;
+      border-radius: 15px;
+    }
+    
+    .name {
+      font-size: 18px;
+      color: #1da69a;
+      font-weight: bold;
+      margin: 0 0 5px 0;
+    }
+    
+    .title {
+      font-size: 14px;
+      color: #333333;
+      margin: 0 0 10px 0;
+    }
+    
+    .contact {
+      font-size: 14px;
+      color: #333333;
+      margin: 0;
+    }
+    
+    .contact a {
+      color: #1da69a;
+      text-decoration: none;
+    }
+    
+    .contact a:hover {
+      text-decoration: underline;
+    }
+</style>
+</head>
+<body>
+  <div class="container">
+    <div class="center-wrapper">
+        <img src="assest/nizcare-logo.png" alt="Centered Image" />
+      </div>
+      <header>
+      
+      <h1>Elevate Your Employee Wellness Program with Nizcare</h1>
+    </header>
+    <img src="assest/Bankingsector.jpeg" alt="Employees Working" class="main-image">
+
+    <section class="intro">
+      <p>At Nizcare, we understand that your employees are your most valuable asset. That's why we've designed
+        comprehensive health check-up packages specifically for your Banking sector employees.</p>
+    </section>
+    <div class="section">
+      <h2 class="section-title">Health Checkup Packages</h2>
+      <div class="package-container">
+        
+        <div class="package-row package-row-3">
+          <div class="package">
+            <h3 class="package-title">Package 1: Basic</h3>
+            <ul>
+              <li>Physical Examination</li>
+              <li>CBC, Blood Sugar</li>
+              <li>Vision Testing</li>
+              <li>Hearing Test</li>
+              <li>Blood prressure check-up</li>
+            </ul>
+          </div>
+          <div class="package">
+            <h3 class="package-title">Package 2: Standard</h3>
+
+            <ul>
+              <li>Physical Examination</li>
+              <li>CBC, Blood Sugar, LFT, KFT</li>
+              <li>Chest X-Ray, ECG</li>
+              <li>Blood pressure check-up</li>
+              <li>Lipid Profile</li>
+            </ul>
+          </div>
+          <div class="package">
+            <h3 class="package-title">Package 3: Advanced</h3>
+            <ul>
+              <li>Comprehensive Physical</li>
+              <li>CBC, Blood Sugar, LFT, KFT, Lipid Profile</li>
+              <li>Vision testing,hearing Test </li>
+              <li>Blood pressure check-up</li>
+              <li>ergonomics</li>
+              <li>Stress Assessment</li>
+            </ul>
+          </div>
+        </div>
+         <div class="package-row package-row-2">
+          <div class="package">
+            <h3 class="package-title">Package 4: Executive</h3>
+            <ul>
+              <li>Comprehensive Physical</li>
+              <li>CBC, Blood Sugar, LFT, KFT, Lipid Profile, TFT</li>
+              <li>Vision testing,hearing Test</li>
+              <li>Blood pressure check-up</li>
+              <li>Stress Test</li>
+              <li>Pulmonary Function Test</li>
+              <li>ECG</li>
+            </ul>
+          </div>
+          <div class="package">
+            <h3 class="package-title">Package 5: Comprehensive</h3>
+            <ul>
+              <li>Comprehensive Physical</li>
+              <li>CBC, Blood Sugar, LFT, KFT, Lipid Profile, TFT, Cancer Screening</li>
+              <li>Vision testing,hearing Test</li>
+              <li>Pulmonary Function Test</li>
+              <li>Blood pressure check-up</li>
+              <li>Psychological Evaluation</li>
+              <li>Stress Assessment</li>
+              <li>ECG</li>
+              <li>Nutrition wellness counseling</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+      <div class="cta">
+        <h2 style="color: #1ea69a; font-size: 26px;">Ready to transform your employee wellness program?</h2>
+  
+      </div>
+    </div>
+  
+    <footer>
+      <a href=https://calendly.com/sabari-nizcare-mamce/new-meeting?month2025-04 class="cta-button1">Book a Free Demo</a>
+    </footer>
+  
+    </div>
+    <div class="container">
+      <div class="footer" style="border-radius: 15px;">
+        <p>Nizcare Healthcare Solutions</p>
+        <div class="social-icons">
+          <img src=assest/facebooklogo.webp alt="Facebook" class="social-icon" />
+          <img src=assest/linkedinlogo.jpg alt="LinkedIn" class="social-icon" />
+          <img src=assest/instagramlogo.jpg alt="Instagram" class="social-icon" />
+          <footer>
+            <a href=https://wa.me/9150036313?text=Hi%20I%20am%20from%20bank%20sector%20want%20to%20know%20more class="cta-button">Contact</a>
+          </footer>
+        </div>
+        <p>© 2025 Nizcare.All rights reserved.</p>
+        <div class="email-signature">
+          <p class="name">Megha Jess Mathew</p>
+          <p class="title">Assistant Manager - Operations & Partnerships</p>
+          <p class="contact">
+            📞 +91-91507 03313 | 🌍 <a href="http://www.nizcare.com" target="_blank">www.nizcare.com</a>
+          </p>
+        </div>
+        
+      </div>
+    </div>
+    </div>
+  </body>
+  </html>
